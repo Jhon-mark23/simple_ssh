@@ -3,7 +3,7 @@
 Install with one command:
 
 ```bash
-wget -O install.sh https://raw.githubusercontent.com/Jhon-mark23/simple_ssh/refs/heads/main/install.sh && chmod +x install.sh && sudo bash install.sh
+wget -O install.sh https://raw.githubusercontent.com/Jhon-mark23/simple_ssh/refs/heads/main/install.sh && chmod +x install.sh && sudo bash install.sh && rm -f install.sh
 ```
 
 After install, create user:
