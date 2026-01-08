@@ -1,19 +1,21 @@
-## SIMPLE SSH SCRIPT 
+## Simple SSH Script
 
-install at your own risk
+Install with one command:
 
-````bash
-wget -O install.sh https://raw.githubusercontent.com/Jhon-mark23/simple_ssh/refs/heads/main/install.sh \
-&& chmod +x install.sh \
-&& sudo bash install.sh
-````
+```bash
+wget -O install.sh https://raw.githubusercontent.com/Jhon-mark23/simple_ssh/refs/heads/main/install.sh && chmod +x install.sh && sudo bash install.sh
+```
 
-after install type create to create ssh user
-````
+After install, create user:
+
+```bash
 create
-`````
+```
 
-# supported ports
-SSH 22/80 
-SSH SSL 443
-SSH WS 8080
+Ports:
+
+· SSH: 22, 80
+· SSH SSL: 443
+· SSH WS: 8080
+
+Use at your own risk
